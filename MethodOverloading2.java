@@ -1,0 +1,19 @@
+package com.java;
+
+/*
+ * overloading with different types of parameters
+ */
+public class MethodOverloading2 {
+
+	 private static void display(int a){
+	        System.out.println("Got Integer data.");
+	    }
+	 
+	    private static void display(String a){
+	        System.out.println("Got String object.");
+	    }
+	    public static void main(String[] args) {
+	        display(1);
+	        display("Hello");
+	    }
+}
